@@ -1,0 +1,250 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+   
+}
+header{
+        height:90vh;
+}
+.bg{
+   
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.45),rgba(0,0,0,0.9)),url("bgimg.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+
+
+nav{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    padding:1vh;  
+   
+}
+.nav_logo{
+    background-color: transparent;
+}
+
+
+button{
+    margin-left: 2rem;
+    background-color:red;
+    border: 0px;
+    height:32px ;  
+    color: white;
+    font-weight: 600;  
+    font-size: 14px;
+    padding: 0px 16px;
+    border-radius: 4px;
+}
+@media (max-width:600px){
+    button{
+        margin-left: 0.2rem;
+        height: 27px;
+        font-weight: 600;  
+        font-size: 12px;
+        padding: 0px 12px;
+    }
+}    
+select{
+    background-color: transparent;
+    color: white;
+    font-weight: 600;  
+    font-size: 14px;
+    padding: 0px 10px;
+    border-radius: 4px;
+    height: 32px;
+    border:0.4px solid white;
+}
+@media (max-width:600px) {
+    select{
+        margin-left: 0.2rem;
+        height: 27px;
+        font-weight: 600;  
+        font-size: 12px;
+        padding: 0px 12px;
+    }
+    
+}
+
+.headad{
+    font-size: 47px;
+    color: rgb(234, 235, 236);
+    display:block;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 12% 8% 1%;
+    
+}
+
+.midad{
+    padding: 1% 8% ;
+    display:block;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-family: ' Jakarta Sans', sans-serif;
+    color: rgb(234, 235, 236);
+    font-weight: lighter;
+}
+.inputbox{
+    display: flex;
+    justify-content: center;
+}
+input{
+   height: 56px;
+   width:354px;
+   border-radius: 4px;
+   background-color: rgba(134, 192, 240, 0.2);
+   border: 1px solid rgb(184, 183, 183);
+   color:rgb(250, 244, 244);
+   font-size: 17px;
+   font-weight: 500;
+   padding: 0px 10px;
+   
+}
+.inputbutton{
+    margin-left: 8px;
+    height: 56px;
+    border-radius: 4px;
+    font-size: 25px;
+    width: 210px;
+}
+
+/*content area*/
+
+.greyline{
+    height: 8px;
+    background-color:rgba(0,0,0,0.85)
+}
+.content1{
+   
+    background-color: black;
+    display: flex;
+   margin: auto;
+    justify-content: center;
+    height: 70vh;
+    width: 100vw;
+}
+
+.upcontent{
+    margin-top: 24vh;
+    padding: 0vh 20%;
+    font-size: 46px;
+    color: rgb(234, 235, 236);   
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    
+    
+}
+.midcontent{
+    font-size: 23px;
+    padding: 3% 7% 3% 20%;
+    font-family: ' Jakarta Sans', sans-serif;
+    color: rgb(234, 235, 236);
+    font-weight: lighter;
+   
+}
+.img1{
+  
+    z-index: 10;
+    position: relative;
+    max-width: 40vw;
+    padding: 5vh 10vw 5vh 5vw;
+}
+.img1 video{
+    position: absolute;
+    top: 18vh;
+    right: 13.5vw;
+    z-index: -10;
+}
+.img3 {
+    z-index: 10;
+    position: relative;
+    max-width: 40vw;
+    padding: 5vh 10vw 5vh 5vw;
+}
+.img3 video{
+    position: absolute;
+    top: 10vh;
+    right: 16.5vw;
+    z-index: -10;
+    width: 22vw;
+}
+.c1{
+    margin-top: -5vh;
+}
+.ques{
+    background-color: black;
+    height: 120vh;
+   
+    width: 100%;
+}
+.headque
+{
+    color: rgb(234, 235, 236);   
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding:30px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+  
+}
+ul{
+    display: block;
+    list-style-type: none;
+    
+}
+.list li{
+    background-color: rgb(42, 42, 42);
+    font-size: 23px;
+    font-weight: lighter;
+    font-family:' Jakarta Sans', sans-serif;
+    margin-top: 10px;
+    width: 80%;
+    color: white;
+    padding: 28px 19px;
+    width: 1100px;
+}
+.ques_end{
+    color: white;
+    font-family:' Jakarta Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 58px;
+}
+/*footer*/
+footer{
+    background-color: black;
+    height: 55vh;
+    color: rgb(150, 150, 150);
+    display: flex;
+    font-family:' Jakarta Sans', sans-serif; ;
+}
+.foot{
+    padding: 5% 10%;
+    display: flex;
+
+}
+.foot p{
+    padding-bottom: 15px;
+}
+.foot li{
+    padding: 10px 70px 10px 60px;
+    text-decoration: underline;
+}
+.fotlan{
+  margin-top: 200px;
+}
